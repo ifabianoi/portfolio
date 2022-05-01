@@ -1,11 +1,11 @@
 {
-  "name": "my-gatsby-blog",
+  "name": "portfolio",
   "version": "1.0.5",
   "private": true,
-  "description": "Strapi Gatsby Blog",
-  "author": "Strapi team",
+  "description": "Portfolio",
+  "author": "Fabiano Pereira",
   "keywords": [
-    "gatsby"
+    "vtex, desenvolvedor, front-end, fabiano pereira, ifabianoi, portfolio"
   ],
   "scripts": {
     "develop": "gatsby develop",
@@ -17,6 +17,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@exfabrica/strapi-plugin-awesome-seo": "^1.0.0-beta.1.1",
     "gatsby": "^4.6.1",
     "gatsby-plugin-gatsby-cloud": "^4.7.0",
     "gatsby-plugin-image": "^2.6.0",
@@ -25,7 +26,7 @@
     "gatsby-source-strapi": "^2.0.0",
     "gatsby-transformer-remark": "^5.6.0",
     "gatsby-transformer-sharp": "^4.6.0",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.13",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
@@ -35,13 +36,13 @@
   "devDependencies": {
     "@tailwindcss/line-clamp": "^0.3.1",
     "@tailwindcss/typography": "^0.5.1",
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "^10.4.5",
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^7.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.4",
-    "tailwindcss": "^3.0.18"
+    "tailwindcss": "^3.0.24"
   }
 }

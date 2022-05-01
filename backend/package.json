@@ -12,7 +12,7 @@
   "name": "backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Portfolio",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -21,7 +21,7 @@
   },
   "devDependencies": {},
   "author": {
-    "name": "A Strapi developer"
+    "name": "Fabiano Pereira"
   },
   "strapi": {
     "uuid": "b0bf1974-2334-4df3-a98c-20eff2bf23c4",
